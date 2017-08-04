@@ -599,6 +599,5 @@ class MyApp < Sinatra::Base
     end
     
     post "/about" do
-      erb :about
     end
 end
