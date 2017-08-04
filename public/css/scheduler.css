@@ -1,4 +1,12 @@
-body {background-color: #252033;}
+body {background-color: #a9abd1; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    }
 h1 {color: #747491; font-family: sans-serif;}
 p {color: #747491; font-family: sans-serif;}
 form {color: #747491; font-family: sans-serif;}
+h3 {color: #747491; font-family: sans-serif;}
+a {color: #747491; font-family: sans-serif;}
+
