@@ -601,10 +601,10 @@ class MyApp < Sinatra::Base
     post "/about.erb" do
     end
     
-    get "/index.erb" do
+    get "/index" do
       erb :index
     end  
     
-    post "/index.erb" do
+    post "/index" do
       end
 end
