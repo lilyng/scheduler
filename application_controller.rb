@@ -594,10 +594,17 @@ class MyApp < Sinatra::Base
     erb :results
     end
     
-    get "/about" do
+    get "/about.erb" do
       erb :about
     end
     
-    post "/about" do
+    post "/about.erb" do
     end
+    
+    get "/index.erb" do
+      erb :index
+    end  
+    
+    post "/index.erb" do
+      end
 end
